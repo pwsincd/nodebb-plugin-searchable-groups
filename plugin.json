@@ -1,0 +1,13 @@
+{
+  "id": "nodebb-plugin-searchable-groups",
+  "name": "Searchable Groups",
+  "description": "Makes the group selector in Widgets/Navigation searchable using Select2",
+  "url": "https://github.com/pwsincd/nodebb-plugin-searchable-groups",
+  "library": "./library.js",
+  "hooks": [
+    {
+      "hook": "static:app.load",
+      "method": "addAdminScript"
+    }
+  ]
+}
