@@ -3,3 +3,5 @@ Makes the group selector in Widgets/Navigation searchable using Select2
 
 
 could be extended to other areas but for now its just what i needed.
+
+Only tested on nodebb version 4.6.1  you`re milage may vary.
